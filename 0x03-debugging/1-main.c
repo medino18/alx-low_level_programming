@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - infinite loop
- * return: 0
+ * main - comment out cause of infinite loop
+ * Return: 0
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	/*
 	 * while (i < 10)
 	 * {
-	 * 	putchar(i);
+	 * putchar(i);
 	 * }
 	 */
 	printf("Infinite loop avoided! \\o/\n");
