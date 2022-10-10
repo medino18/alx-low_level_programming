@@ -4,8 +4,8 @@
 /**
  * create_array - creates an array of chars,
  * and initializes it to a specific char
- * @size - size of array to be initialized
- * @c - specific char to initialize array with
+ * @size: size of array to be initialized
+ * @c: specific char to initialize array with
  * Return: end result
  */
 
@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	array = malloc(sizeof(char) * size);
 
 	if (array == NULL)
-			return (NULL);
+		return (NULL);
 
 	for (index = 0; index < size; index++)
 		array[index] = c;
