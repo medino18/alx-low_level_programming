@@ -13,10 +13,12 @@ int main(int argc, char **argv)
 
 	if (argc == 1)
 		printf("%d\n", argc - 1);
-	else{
-	for (i = 1; *argv; i++, argv++)
-		;
-	printf("%d\n", i);
+
+	else
+	{
+		for (i = 1; *argv; argv++)
+			i++;
+		printf("%d\n", i);
 	}
 	return (0);
 }
